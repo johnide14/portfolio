@@ -1,0 +1,94 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+    margin-top: 8rem;
+
+}
+
+.header_container{
+    text-align: left;
+    height: 100%;
+    position: relative;
+}
+
+.header_container h1{
+    text-align: left;
+    
+    position: relative;
+}
+.cta{
+    margin-top: 25rem;
+    display: flex;
+    margin-left: 5rem;
+}
+
+.me{
+   
+    width: 423px;
+    height: 393px;
+    position: absolute;
+    left: calc(85% - 11rem);
+    top: calc(20% - 11rem);
+    border-radius: 2rem 2rem 2rem 2rem;
+    overflow: hidden;
+    
+}
+
+@media  screen and (max-width: 1024px) {
+    .header{
+        height: 68vh;
+    }
+    .header_container{
+        top: calc(50% - 60%);
+    }
+    .header_container h1{
+        font-size: 1rem;
+    }
+    
+    .me{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        left: calc(28% - 10rem);
+        top: calc(28% - 11rem);
+        border-radius: 2rem 2rem 2rem 2rem;
+        overflow: hidden;
+    }
+    .cta{
+        margin-bottom: 2rem;
+        display: flex;
+        margin-left: 2.5rem;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .header{
+        height: 100vh;
+        
+    }
+    .header_container{
+        left: calc(50% - 50%);
+        text-align: center;
+        
+    }
+    .header_container h1{
+        left: calc(50% - 50%);
+        text-align: center;
+        
+    }
+    .me{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        left: calc(28% - 10rem);
+        top: calc(28% - 11rem);
+        border-radius: 2rem 2rem 2rem 2rem;
+        overflow: hidden;
+    }
+    .cta{
+        margin-bottom: 2rem;
+        display: flex;
+        margin-left: 4rem;
+    }
+}

@@ -1,0 +1,28 @@
+.tools__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.tools__item{
+    background: lightgray;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+
+}
+.tools__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+.tools__item h3{
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.tools__image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
